@@ -4,6 +4,7 @@
  * Module dependencies.
  */
 
+require('dotenv').config(); // Load environment variables from .env file
 var app = require('../app');
 var debug = require('debug')('musicwebsite-backend:server');
 var http = require('http');
